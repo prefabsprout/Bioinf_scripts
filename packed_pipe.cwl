@@ -11,13 +11,13 @@
             "outputs": [
                 {
                     "type": "File",
-                    "outputSource": "#main/sort/output_sorted_bam",
+                    "outputSource": "#main/convert/output_bam",
                     "id": "#main/output_bam"
                 },
                 {
                     "type": "File",
-                    "outputSource": "#main/convert/output_bam",
-                    "id": "#main/output_sam"
+                    "outputSource": "#main/sort/output_sorted_bam",
+                    "id": "#main/output_sorted_bam"
                 }
             ],
             "steps": [
